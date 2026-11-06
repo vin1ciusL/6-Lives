@@ -1,0 +1,9 @@
+# Normalize text consistently across Windows and other platforms.
+* text=auto eol=lf
+
+# Unity writes empty YAML values as "key: "; preserve its serialized format.
+*.asset whitespace=-blank-at-eol
+*.meta whitespace=-blank-at-eol
+*.prefab whitespace=-blank-at-eol
+*.scenetemplate whitespace=-blank-at-eol
+*.unity whitespace=-blank-at-eol
